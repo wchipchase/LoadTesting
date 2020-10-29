@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2.1">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.3">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -3430,24 +3430,28 @@
                     <stringProp name="Argument.name">oidt</stringProp>
                     <stringProp name="Argument.value">3</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   </elementProp>
                   <elementProp name="ot" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
                     <stringProp name="Argument.name">ot</stringProp>
                     <stringProp name="Argument.value">SUBMIT</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   </elementProp>
                   <elementProp name="s" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
                     <stringProp name="Argument.name">s</stringProp>
                     <stringProp name="Argument.value">2560x1080</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   </elementProp>
                   <elementProp name="c" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
                     <stringProp name="Argument.name">c</stringProp>
                     <stringProp name="Argument.value">24</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   </elementProp>
                   <elementProp name="j" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
